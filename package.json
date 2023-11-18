@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Um pacote para automatizar a configuração de projetos Express.js",
   "bin": {
-    "meu-pacote": "bin/expresstailwindsetup"
+    "expresstailwindsetup": "bin/expresstailwindsetup"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/seu-username/meu-pacote.git"
+    "url": "https://github.com/claulis/expresstailwindsetup"
   },
   "keywords": [
     "express",
@@ -19,12 +19,12 @@
     "tailwind",
     "nodemon"
   ],
-  "author": "Seu Nome",
+  "author": "Claudio Ulisse",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seu-username/meu-pacote/issues"
+    "url": "https://github.com/claulis/expresstailwindsetup/issues"
   },
-  "homepage": "https://github.com/seu-username/meu-pacote#readme",
+  "homepage": "https://github.com/claulis/expresstailwindsetup#readme",
   "dependencies": {
     
   },
