@@ -1,13 +1,13 @@
 {
   "name": "expresstailwindsetup",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Um pacote para automatizar a configuração de projetos Express.js",
   "bin": {
     "expresstailwindsetup": "bin/expresstailwindsetup"
   },
   "main": "lib/index.js",
   "scripts": {
-    "postinstall": ""
+   
   },
   "repository": {
     "type": "git",
