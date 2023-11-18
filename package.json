@@ -1,6 +1,6 @@
 {
   "name": "expresstailwindsetup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Um pacote para automatizar a configuração de projetos Express.js",
   "bin": {
     "expresstailwindsetup": "bin/expresstailwindsetup"
