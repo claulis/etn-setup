@@ -1,0 +1,34 @@
+{
+  "name": "expresstailwindsetup",
+  "version": "1.0.0",
+  "description": "Um pacote para automatizar a configuração de projetos Express.js",
+  "bin": {
+    "meu-pacote": "bin/expresstailwindsetup"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "postinstall": "chmod +x bin/expresstailwindsetup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-username/meu-pacote.git"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "tailwind",
+    "nodemon"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seu-username/meu-pacote/issues"
+  },
+  "homepage": "https://github.com/seu-username/meu-pacote#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    
+  }
+}
