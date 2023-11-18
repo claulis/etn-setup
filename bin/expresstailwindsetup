@@ -1,5 +1,4 @@
 #!/bin/sh
 
-icacls bin\expresstailwindsetup.cmd /grant Everyone:RX
 
 node "$(dirname "$0")/../lib/index.js" "$@"
