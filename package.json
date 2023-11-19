@@ -1,13 +1,14 @@
 {
-  "name": "expresstailwindsetup",
-  "version": "1.0.7",
-  "description": "Um pacote para automatizar a configuração de projetos Express.js",
+  "name": "etn-setup",
+  "version": "1.0.0",
+  "description": "Um pacote para automatizar a configuração de projetos Express.js com Tailwind CSS, Nodemon e EJS.",
   "bin": {
-    "expresstailwindsetup": "./bin/expresstailwindsetup"
+    "etn-setup": "./bin/etn-setup"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "setup": "./bin/expresstailwindsetup"
+    "setup": "./bin/etn-setup",
+    "set-policy":"powershell -ExecutionPolicy Bypass -File ./scripts/setpolicy.ps1"
   },
   "repository": {
     "type": "git",
@@ -15,17 +16,17 @@
   },
   "keywords": [
     "express",
-    "tailwind"
+    "tailwind",
+    "nodemon",
+    "ejs",
+    "config",
+    "setup"
   ],
   "author": "Claudio Ulisse",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/claulis/expresstailwindsetup/issues"
   },
-  "homepage": "https://github.com/claulis/expresstailwindsetup#readme",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "tailwindcss": "^2.2.19"
-  }
+  "homepage": "https://github.com/claulis/expresstailwindsetup#readme"
+ 
 }

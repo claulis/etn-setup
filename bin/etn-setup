@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+
+const install = require('../lib/index');
+
+const arguments = process.argv.splice(2);
+
+if (arguments.length === 0) {
+  console.error("Ocorreu um erro durante a execução do script.");
+  process.exit(1);
+} else {
+  install.installPackages(arguments[0]);
+  
+}
+
+
