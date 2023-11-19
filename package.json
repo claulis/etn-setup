@@ -1,6 +1,6 @@
 {
   "name": "etn-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to automate the setup of Express.js projects with Tailwind CSS, Nodemon, and EJS",
   "bin": {
     "etn-setup": "./bin/etn-setup"
