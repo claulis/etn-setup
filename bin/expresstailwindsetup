@@ -1,3 +1,14 @@
-#!/bin/sh
+#!/usr/bin/env node
 
-node "$(dirname "$0")/../lib/index.js" "$@"
+const colors = require('colors');
+const install = require("../lib/index");
+
+const arguments = process.argv.splice(2);
+
+if (arguments.length === 0) {
+  console.log(colors.red("Nome do projeto:"));
+  process.exit(1);
+} else {
+  install.copy(arguments[0]);
+}
+
